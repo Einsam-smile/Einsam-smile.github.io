@@ -42,11 +42,22 @@
 #aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{
     background:rgba(255,255,255,.8)
 }
-body{
+/* body{
     cursor:url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/default.cur),default
 }
 a,img{
     cursor:url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/pointer.cur),default
+} */
+/*指针样式*/
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+/*链接小手样式*/
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
 }
 ::-webkit-scrollbar{
     width:8px;
@@ -87,3 +98,4 @@ a,img{
 #footer-wrap, #footer-wrap a {
     color: white!important;
 }
+
